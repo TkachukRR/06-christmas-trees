@@ -24,7 +24,7 @@ const timer = () => {
     document.body.prepend(timer);
 
     const startTimer = () => {
-        const deadLine = new Date(2023, 0, 1, 0, 0, 0)
+        const deadLine = new Date(2024, 0, 1, 0, 0, 0)
         const now = new Date();
         const timeRemaning = (deadLine - now) / 1000;
         const seconds = Math.floor(timeRemaning % 60);
@@ -49,7 +49,7 @@ const timer = () => {
 
 
 
-//     const arr = ['год', 'года', 'лет']
+//     const arr = ['рік', 'роки', 'років']
 
 // { // 1 пример склонение слова
 // 	const onlyWord = document.querySelectorAll('.only_word');
